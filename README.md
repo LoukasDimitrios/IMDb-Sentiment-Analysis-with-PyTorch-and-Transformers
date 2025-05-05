@@ -14,7 +14,7 @@ llm-sentiment-pipeline/
 │   └── 04_infer_unsupervised.py # Run model on IMDb unsupervised split
 ├── model/                       # Saved tokenizer & model (after training)
 └── README.md                    # This file
-...
+```
 ---
 
 ## 🚀 Quick Start
