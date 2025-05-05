@@ -40,11 +40,14 @@ python scripts/04_infer_unsupervised.py
 ```
 
 ## 🧪 Model Info
-base_model: distilbert-base-uncased
-dataset: IMDb (from HuggingFace Datasets)
-task: Binary Sentiment Classification (Positive / Negative)
+Base model: distilbert-base-uncased
+
+Dataset: IMDb from 🤗 Datasets
+
+Task: Binary Sentiment Classification (Positive / Negative)
 
 ## 📌 Notes
-This project is intended for educational & portfolio purposes.
-
-Can be extended to include pseudo-labeling, training metrics visualization, or fine-tuning larger LLMs.
+extensions:
+  - pseudo-labeling
+  - training metrics visualization
+  - fine-tuning larger LLMs
