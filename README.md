@@ -1,6 +1,6 @@
 # IMDb Sentiment Analysis with PyTorch and Transformers
 
-This project demonstrates a full sentiment analysis pipeline using the IMDb dataset, HuggingFace Transformers (DistilBERT), and PyTorch. It includes training, evaluation, inference on custom and unsupervised data, and proper code structure for reproducibility and portfolio visibility.
+This project demonstrates a full sentiment analysis pipeline using the IMDb dataset, HuggingFace Transformers (DistilBERT), and PyTorch. It includes training, evaluation, inference on both labeled and unlabeled data, and is structured to be beginner-friendly and easy to extend.
 
 ---
 
@@ -43,9 +43,11 @@ python scripts/04_infer_unsupervised.py
 ## 🧪 Model Info
   - Base model: distilbert-base-uncased
 
-  - Dataset: IMDb from Huggingface Datasets
+  - Dataset: IMDb from HuggingFace Datasets
 
   - Task: Binary Sentiment Classification (Positive / Negative)
+
+  - link: https://huggingface.co/distilbert-base-uncased
 
 ## 📌 Notes
 Potential extensions:
