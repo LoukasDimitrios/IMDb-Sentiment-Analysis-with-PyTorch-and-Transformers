@@ -52,7 +52,7 @@ python scripts/04_infer_unsupervised.py
 ## 📌 Notes
 Potential extensions:
   - pseudo-labeling
-  - 
+    
   - training metrics visualization
-  - 
+    
   - fine-tuning larger LLMs
