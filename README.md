@@ -15,6 +15,7 @@ IMDb-Sentiment-Analysis-with-PyTorch-and-Transformers/
 ├── model/                       # Saved tokenizer & model (after training)
 └── README.md                    # This file
 ```
+
 ---
 
 ## 🚀 Quick Start
@@ -40,6 +41,8 @@ python scripts/03_infer_single.py
 python scripts/04_infer_unsupervised.py
 ```
 
+---
+
 ## 🧪 Model Info
   - Base model: distilbert-base-uncased
 
@@ -48,6 +51,8 @@ python scripts/04_infer_unsupervised.py
   - Task: Binary Sentiment Classification (Positive / Negative)
 
   - link: https://huggingface.co/distilbert-base-uncased
+
+---
 
 ## 📌 Notes
 Potential extensions:
