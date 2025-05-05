@@ -7,12 +7,12 @@ This project demonstrates a full sentiment analysis pipeline using the IMDb data
 ## 📂 Project Structure
 llm-sentiment-pipeline/
 ├── scripts/
-│ ├── 01_train.py # Train DistilBERT on IMDb
-│ ├── 02_eval_report.py # Classification report on test set
-│ ├── 03_infer_single.py # Predict sentiment for a single text
-│ └── 04_infer_unsupervised.py # Run model on IMDb unsupervised split
-├── model/ # Saved tokenizer & model (after training)
-└── README.md # This file
+│   ├── 01_train.py              # Train DistilBERT on IMDb
+│   ├── 02_eval_report.py        # Classification report on test set
+│   ├── 03_infer_single.py       # Predict sentiment for a single text
+│   └── 04_infer_unsupervised.py # Run model on IMDb unsupervised split
+├── model/                       # Saved tokenizer & model (after training)
+└── README.md                    # This file
 
 ---
 
@@ -39,14 +39,12 @@ python scripts/03_infer_single.py
 python scripts/04_infer_unsupervised.py
 ```
 
-🧪 Model Info
-Base model: distilbert-base-uncased
+## 🧪 Model Info
+base_model: distilbert-base-uncased
+dataset: IMDb (from HuggingFace Datasets)
+task: Binary Sentiment Classification (Positive / Negative)
 
-Dataset: IMDb from Ηuggingface Datasets
-
-Task: Binary Sentiment Classification (Positive / Negative)
-
-📌 Notes
+## 📌 Notes
 This project is intended for educational & portfolio purposes.
 
 Can be extended to include pseudo-labeling, training metrics visualization, or fine-tuning larger LLMs.
