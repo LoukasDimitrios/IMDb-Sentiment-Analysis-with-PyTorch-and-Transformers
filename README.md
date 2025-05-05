@@ -6,7 +6,7 @@ This project demonstrates a full sentiment analysis pipeline using the IMDb data
 
 ## 📂 Project Structure
 ```text
-llm-sentiment-pipeline/
+IMDb-Sentiment-Analysis-with-PyTorch-and-Transformers/
 ├── scripts/
 │   ├── 01_train.py              # Train DistilBERT on IMDb
 │   ├── 02_eval_report.py        # Classification report on test set
