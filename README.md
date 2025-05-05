@@ -22,19 +22,19 @@ llm-sentiment-pipeline/
 ```bash
 pip install torch datasets transformers tqdm scikit-learn
 ```
+### 2. Train Model
 ```bash
-2. Train Model
 python scripts/01_train.py
 ```
-3. Evaluate Performance
+### 3. Evaluate Performance
 ```bash
 python scripts/02_eval_report.py
 ```
-4. Predict a Custom Review
+### 4. Predict a Custom Review
 ```bash
 python scripts/03_infer_single.py
 ```
-5. Run on Unsupervised IMDb Reviews
+### 5. Run on Unsupervised IMDb Reviews
 ```bash
 python scripts/04_infer_unsupervised.py
 ```
