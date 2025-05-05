@@ -1,0 +1,17 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# HuggingFace model save dirs
+model/
+saved_model/
+
+# Environment variables
+.env
+*.env
+
+# VSCode config (optional)
+.vscode/
