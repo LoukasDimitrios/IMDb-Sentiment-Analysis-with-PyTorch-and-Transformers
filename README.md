@@ -48,7 +48,7 @@ python scripts/04_infer_unsupervised.py
   - Task: Binary Sentiment Classification (Positive / Negative)
 
 ## 📌 Notes
-extensions:
+Potential extensions:
   - pseudo-labeling
   - training metrics visualization
   - fine-tuning larger LLMs
